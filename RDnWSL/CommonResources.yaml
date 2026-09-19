@@ -19,8 +19,9 @@ metadata:
   namespace: default
 type: Opaque
 data:
-  username: YWRtaW4=    # admin (base64)
-  password: MWYyZDFlMmU2N2Rm  # 1f2d1e2e67df (base64)
+  # Example placeholders only: never commit real Secret values to git.
+  username: UExBQ0VIT0xERVI=  # "PLACEHOLDER" (base64)
+  password: UExBQ0VIT0xERVI=  # "PLACEHOLDER" (base64)
 ---
 apiVersion: apps/v1
 kind: Deployment
